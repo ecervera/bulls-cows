@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bulls and Cows</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<h3>Bulls and Cows</h3>
+
+  <p>Bulls and Cows is an old code-breaking mind or paper and pencil game for two or more players, 
+  predating the similar commercially marketed board game Mastermind.</p>
+  
+  <p>On a sheet of paper, the players each write a 4-digit secret number. The digits must be all different. 
+  Then, in turn, the players try to guess their opponent's number who gives the number of matches. 
+  If the matching digits are on their right positions, they are "bulls", if on different positions, 
+  they are "cows".</p>
+  
+  <p>The first one to reveal the other's secret number wins the game.</p>
+  
+  <p>Guess: <input id="guess"> <button onclick="guess()">Check</button> <button onclick="reset()">Reset</button></p>
+  <p>Number of guesses: <output id="numguesses">0</output></p>
+
+  <div id="box" class="jxgbox"></div>
+  
+  <script src="js/jsxgraphcore.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
